@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Django-React-Blog/static/js/main.274689d2.chunk.js",
+    "main.js.map": "/Django-React-Blog/static/js/main.274689d2.chunk.js.map",
+    "runtime-main.js": "/Django-React-Blog/static/js/runtime-main.22a33176.js",
+    "runtime-main.js.map": "/Django-React-Blog/static/js/runtime-main.22a33176.js.map",
+    "static/js/2.43d4a89c.chunk.js": "/Django-React-Blog/static/js/2.43d4a89c.chunk.js",
+    "static/js/2.43d4a89c.chunk.js.map": "/Django-React-Blog/static/js/2.43d4a89c.chunk.js.map",
+    "index.html": "/Django-React-Blog/index.html",
+    "static/js/2.43d4a89c.chunk.js.LICENSE.txt": "/Django-React-Blog/static/js/2.43d4a89c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22a33176.js",
+    "static/js/2.43d4a89c.chunk.js",
+    "static/js/main.274689d2.chunk.js"
+  ]
+}
