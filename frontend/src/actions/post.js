@@ -14,7 +14,7 @@ export const load_Post = () => async dispatch => {
     };
 
     try {
-        const res = await axios.get(`${process.env.REACT_APP_API_URL}/post/all-post-view`, config);
+        const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/all-post-view`, config);
         
         if (res.data.error) {
            
