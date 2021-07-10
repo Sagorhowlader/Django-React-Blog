@@ -30,11 +30,11 @@ The backend is completely build on Django using Django Rest Framework, while the
 2.  Install the all frontend dependencies using npm: `npm install`.
 3.  Run the server: `npm start`.
 
-##API DOC 
+## API DOC 
 
 Base Url: `http://127.0.0.1:8000/`
 
-##API: GET CSRFToken 
+# API: GET CSRFToken 
 
 #End-point: `accounts/csrf_cookie`
 Response:  
@@ -43,7 +43,7 @@ Response:
 }
 
 
-##API: Registration 
+# API: Registration 
 End-point: `accounts/register`
 Method: POST 
 
