@@ -29,18 +29,22 @@ The backend is completely build on Django using Django Rest Framework, while the
 1. Navigate the current working directory to `blog_frontend`: `cd ./Django-React-Blog/frontend/`.
 2.  Install the all frontend dependencies using npm: `npm install`.
 3.  Run the server: `npm start`.
-Base Url: http://127.0.0.1:8000/
-API: GET CSRFToken 
 
-End =point: accounts/csrf_cookie
+##API DOC 
+
+Base Url: `http://127.0.0.1:8000/`
+
+##API: GET CSRFToken 
+
+#End-point: `accounts/csrf_cookie`
 Response:  
 {
     "success": "CSRF cookie set"
 }
 
 
-API: Registration 
-End-point: accounts/register
+##API: Registration 
+End-point: `accounts/register`
 Method: POST 
 
 Header: 
@@ -60,13 +64,9 @@ Response body :
     "success": "User created successfully"
 }
 
+##API: Login  
 
-
-
-
-API: Login  
-
-End-Point: /accounts/login
+End-Point: `/accounts/login`
 Method: POST 
 Header: 
 {
@@ -84,7 +84,7 @@ Response body:
     "success": "User authenticated"
 }
 
-API: Check Authentication  
+##API: Check Authentication  
 End- Point: /accounts/authenticated
 Method: GET  
 Response body: 
@@ -93,8 +93,8 @@ Response body:
 }
 
 
-API: Deleted Account    
-End-Point: /accounts/delete
+##API: Deleted Account    
+End-Point: `/accounts/delete`
 Method: GET  
 	
 Response body: 
@@ -103,8 +103,8 @@ Response body:
     "massage": "Post created Successfully"
 }
 
-API: Create Post   
-End- Point : /api/create-post
+##API: Create Post   
+End-Point : `/api/create-post`
 Method: POST 
 Header: 
 {
@@ -123,8 +123,8 @@ Response body:
     "massage": "Post created Successfully"
 }
 
-API: View all Post    
-End- Point: /post/all-post-view
+##API: View all Post    
+End- Point: `/post/all-post-view`
 Method: GET 
 
 Response body: 
@@ -151,8 +151,8 @@ Response body:
 
 
 
-API: Create Comment      
-End- Point: /api/create-post-comment
+##API: Create Comment      
+End-Point: `/api/create-post-comment`
 
 Method: POST  
 Header: 
@@ -178,8 +178,8 @@ Response body:
     "post": 1
 }
 
-API: Create Vote      
-End- Point: /api/create-post-comment
+##API: Create Vote      
+End- Point: `/api/create-post-comment`
 Method: POST  
 Header: 
 {
